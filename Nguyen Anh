@@ -1,0 +1,6 @@
+import sys 
+from QUEEN.queen import *
+if "output" not in os.listdir("./"):
+    os.mkdir("output")
+dna = QUEEN(seq="CCGGTATGCGTCGA")
+dna = QUEEN(seq="CCGGTATGCG----/----ATACGCAGCT") 
